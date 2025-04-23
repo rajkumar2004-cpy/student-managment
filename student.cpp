@@ -20,7 +20,7 @@ public:
         cout << "Enter Student ID: ";
         cin >> student.id;
         cout << "Enter Student Name: ";
-        cin.ignore(); // To ignore the newline character left in the buffer
+        cin.ignore(); 
         getline(cin, student.name);
         cout << "Enter Student Age: ";
         cin >> student.age;
